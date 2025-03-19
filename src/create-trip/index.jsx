@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import GooglePlacesAutocomplete from "react-google-places-autocomplete";
-import AutoComplete from "./Autocomplete";
+import AutoComplete from "./AutoComplete";
 import { Input } from "@/components/ui/input";
 import { Expand } from "lucide-react";
 import {
