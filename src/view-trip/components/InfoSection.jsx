@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import React, { useEffect, useState } from "react";
 import { IoIosSend } from "react-icons/io";
 
-import getPlaceDetails from "@/service/GLobalApi";
 import GlobalApi from "@/service/GLobalApi";
 
 function InfoSection({ trip }) {
