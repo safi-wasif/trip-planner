@@ -7,7 +7,7 @@ import {
   SelectBudgetOptions,
   SelectTravelList,
   systemprompt,
-} from "@/constants/Options";
+} from "@/constants/options";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
