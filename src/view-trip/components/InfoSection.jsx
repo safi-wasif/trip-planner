@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import React, { useEffect, useState } from "react";
 import { IoIosSend } from "react-icons/io";
 
-import GlobalApi from "@/service/GLobalApi";
+import GlobalApi from "@/service/GlobalApi";
 
 function InfoSection({ trip }) {
     const [photoUrl, setPhotoUrl] = useState("/download.jpg");
