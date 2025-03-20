@@ -55,7 +55,7 @@ function Header() {
     
   },[]);
   return (
-    <div className='p-3 shadow-sm flex justify-between items-center px-5'>
+    <div className='p-3 bg-gray-300 shadow-sm flex justify-between items-center px-5'>
         <img className='w-20' src="/logo.svg" />
         <div>
         {user ?
