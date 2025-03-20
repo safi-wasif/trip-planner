@@ -19,7 +19,7 @@ function Hero() {
         <Button>Get Started, It's Free</Button>
       </Link>
 
-      <img src="/landing.png" alt="" />
+      <img  src="/loading_new.png" alt=""  className="rounded-2xl shadow-2xl mt-6 max-w-[90%] md:max-w-full"/>
     </div>
   );
 }
