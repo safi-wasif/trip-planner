@@ -17,7 +17,7 @@ function PlaceCard({place}) {
     >
     <div className='border rounded-xl p-3 mt-3 flex gap-5 hover:scale-105 transition-all hover:shadow-md cursor-pointer'>
     <GlobalApi name={place?.name} address={place?.details} onPhotoFetched={setPhotoUrl} />
-        <img src={photoUrl} className='w-[130px] h-[130px] rounded-xl' />
+        <img src={photoUrl || "/download.jpg"} className='w-[130px] h-[130px] rounded-xl' />
         <div>
             <h2 className='font-bold text-lg'>{place.name}</h2>
             <p className='text-sm text-gray-400'>{place.details}</p>
